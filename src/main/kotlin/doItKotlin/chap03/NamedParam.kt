@@ -1,4 +1,11 @@
-package chap03.section1
+package doItKotlin.chap03
+
+/*
+* Do It ! 코틀린 프로그래밍
+* Chap 03. 함수와 함수형 프로그래밍
+*
+* 3-1. 함수 선언하고 호출하기
+* */
 
 fun main() {
     // 너무 많은 함수를 호출하다 보면 가끔 어떤 인자를 어떤 매개변수에 전달했는지 햇갈리는 경우가 있기 때문에
