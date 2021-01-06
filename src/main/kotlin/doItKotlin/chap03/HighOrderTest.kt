@@ -5,6 +5,7 @@ package doItKotlin.chap03
 * Chap 03. 함수와 함수형 프로그래밍
 *
 * 3-3. 고차 함수와 람다식
+  -> 인자에 일반 함수 사용해보기
 * */
 
 fun main() {
