@@ -9,17 +9,20 @@ package doItKotlin.chap03
 * */
 
 fun main() {
-    val result = callByName(otherLamda)
+    val result = callByName(otherLambda)
+    // 람다식 이름으로 호출. 함수가 아니므로 바로 callByName 함수 실행
     println(result)
 }
 
 fun callByName(b: () -> Boolean): Boolean {
+    // 람다식 자료형으로 선언된 매개변수. 매개변수가 함수로 되어 있으므로 밑의 return까지 먼저 실행됨.
+
     println("Call By Name Function")
     return b()
 }
 
-val otherLamda: () -> Boolean = {
-    println("Other Lamda Function")
+val otherLambda: () -> Boolean = {
+    println("Other Lambda Function")
     true // 반환
 }
 
