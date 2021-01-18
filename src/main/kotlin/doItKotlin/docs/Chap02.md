@@ -1,19 +1,21 @@
 
 ## Chapter 02. 변수와 자료형, 연산자
 
+##
+
 1. 코틀린 프로젝트 구성
     * 모듈 (Module)　　　　　　　　상위
     * 패키지 (Package)　　　　　　　&#160;|
     * 파일 (File)　　　　　　　　　&#160; 하위
    
-###
+##
 
 2. 코틀린에서의 변수 선언
     - `val(value)` : 최초로 지정한 변수의 값으로 초기화하고 더이상 바꿀 수 없는 읽기 전용 변수가 됨.
         - 자바의 final 변수와 비슷, `불변 변수(immutable)`라고도 함.
     - `var(variable)` : 최초로 지정한 변수의 초깃값이 있더라도 값을 언제나 변경 가능한 변수.
-        - `가변 변수(mutable)` 라고도 함.  
-    ex)
+        - `가변 변수(mutable)` 라고도 함.
+          ####
           ```kotlin
             val name : String = "leejieuns2" (불변변수)  
             var name : String = "leejieun" (가변변수)
@@ -29,33 +31,33 @@
           (최적화 필요 없음)
         - 코틀린에서는 기본적으로 변수가 Not Null이고, Nullable한 표현을 사용하고 싶을 땐 자료형 뒤에 ? 를 붙여준다.
 
-###
+##
 
 3. 표현식과 $ 기호 사용하여 문자열 출력하기
    
     - 표현식과 $ 기호를 사용하면 변수를 쉽게 문자열로 출력할 수 있다.
-    
-    ```kotlin
-   var a = 1
-   var s1 = "a is ${a}"
-   println(s1)
-   
-   // 실행결과 : a is 1
-    ```
+       ####
+        ```kotlin
+       var a = 1
+       var s1 = "a is ${a}"
+       println(s1)
+       
+       // 실행결과 : a is 1
+        ```
 
-###
+##
 
 4. 자료형에 별명 붙이기 (alias)  
    
     - 고차 함수, 람다식, 긴 선언 클래스 등에 사용됨.
     - 별명을 붙인다는 점에서 sql alias와 비슷.
-    
-   ```kotlin
-   typealias Username = String      // String을 username이라는 별명으로 대치
-   val user : Username = "Jieun"    // 이제부터 username을 String과 같은 표현이라고 인식함.
-   ```
+       ####
+       ```kotlin
+       typealias Username = String      // String을 username이라는 별명으로 대치
+       val user : Username = "Jieun"    // 이제부터 username을 String과 같은 표현이라고 인식함.
+       ```
 
-###
+##
 
 5. 코틀린에 있는 특별한 문법
     1. 세이프 콜 (Safe-call)
@@ -82,13 +84,14 @@
           ```kotlin
            println("str1 : $str1 length : ${str1!!.length}")
            ```
-    
+   
+##
+
 6. 기본형과 참조형 자료형의 비교 원리
     1. 이중 등호(==)와 삼중 등호(===)의 사용   
         `==` : 값만 비교하는 경우   
         `===` : 값과 참조 주소를 비교할 때   
-       ####
-       ex)
+       ###
        ```kotlin
         val a: Int = 128        // 기본 자료형 변수 (스택에 저장)
         val b: Int? = 128       // 객체 (힙에 저장)
