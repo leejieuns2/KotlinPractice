@@ -5,7 +5,7 @@
 
 ![img.png](image/doitkotlin.png)
 ## Do It! Kotlin Programming - 황영덕 저
-> https://www.boostcourse.org/mo132/joinLectures/28611
+> 강의 : https://www.boostcourse.org/mo132/joinLectures/28611
 
 - [Chap 01. 코틀린 시작하기](src/main/kotlin/doItKotlin/docs/Chap01.md)
 
@@ -14,3 +14,12 @@
 
 
 - [Chap 03. 함수와 함수형 프로그래밍](src/main/kotlin/doItKotlin/docs/Chap03.md)
+
+
+- [Chap 04. 프로그램의 흐름 제어](src/main/kotlin/doItKotlin/docs/Chap04.md)
+
+
+- [Chap 05. 클래스와 객체](src/main/kotlin/doItKotlin/docs/Chap05.md)
+
+
+- [Chap 06. 프로퍼티와 초기화](src/main/kotlin/doItKotlin/docs/Chap06.md)
