@@ -36,6 +36,6 @@ fun main() {
 
 /*
 *   < 실행 결과 >
-*   For input string: "not a number" <- 에러 메세지 출력
+*   For input string: "not a number"
     10
 * */
