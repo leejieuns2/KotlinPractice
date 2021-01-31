@@ -1,5 +1,7 @@
 # Kotlin Study Repository
-
+- 개인적으로 코틀린을 독학하면서 참고한 책이나 자료들을 읽고 공부한 것들을 정리한 저장소입니다.
+- 제가 참고한 책이나 자료들은 README.md에 지속적으로 업데이트 할 예정입니다.
+s
 <br>
 <br>
 
@@ -13,13 +15,16 @@
 - [Chap 02. 변수와 자료형, 연산자](src/main/kotlin/doItKotlin/docs/Chap02.md)
 
 
-- [Chap 03. 함수와 함수형 프로그래밍](src/main/kotlin/doItKotlin/docs/Chap03.md)
+- [Chap 03. 함수와 함수형 프로그래밍](src/main/kotlin/doItKotlin/docs/Chap03.md)   
+  [👩‍💻 관련 예제 코드 바로가기](src/main/kotlin/doItKotlin/chap03)
 
 
-- [Chap 04. 프로그램의 흐름 제어](src/main/kotlin/doItKotlin/docs/Chap04.md)
+- [Chap 04. 프로그램의 흐름 제어](src/main/kotlin/doItKotlin/docs/Chap04.md)   
+  [👩‍💻 관련 예제 코드 바로가기](src/main/kotlin/doItKotlin/chap04)
 
 
-- [Chap 05. 클래스와 객체](src/main/kotlin/doItKotlin/docs/Chap05.md)
+- [Chap 05. 클래스와 객체](src/main/kotlin/doItKotlin/docs/Chap05.md)   
+  [👩‍💻 관련 예제 코드 바로가기](src/main/kotlin/doItKotlin/chap05)
 
 
 - [Chap 06. 프로퍼티와 초기화](src/main/kotlin/doItKotlin/docs/Chap06.md)
@@ -35,5 +40,8 @@
 - Chap 01. 코틀린이란 무엇이며, 왜 필요한가?   
 
  
-- [Chap 02. 코틀린 기초](src/main/kotlin/doItKotlin/docs/Chap02.md)
-- [Chap 02 관련 예제 코드 바로가기](src/main/kotlin/kotlinInAction/chap02)
+- [Chap 02. 코틀린 기초](src/main/kotlin/kotlinInAction/docs/Chap02.md)   
+  [👩‍💻 관련 예제 코드 바로가기](src/main/kotlin/kotlinInAction/chap02)
+
+
+- [Chap 03. 함수 정의와 호출](src/main/kotlin/kotlinInAction/docs/Chap03.md)
