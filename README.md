@@ -1,7 +1,7 @@
 # Kotlin Study Repository
 - 개인적으로 코틀린을 독학하면서 참고한 책이나 자료들을 읽고 공부한 것들을 정리한 저장소입니다.
 - 제가 참고한 책이나 자료들은 README.md에 지속적으로 업데이트 할 예정입니다.
-s
+
 <br>
 <br>
 
@@ -44,4 +44,15 @@ s
   [👩‍💻 관련 예제 코드 바로가기](src/main/kotlin/kotlinInAction/chap02)
 
 
-- [Chap 03. 함수 정의와 호출](src/main/kotlin/kotlinInAction/docs/Chap03.md)
+- [Chap 03. 함수 정의와 호출](src/main/kotlin/kotlinInAction/docs/Chap03.md)   
+  [👩‍💻 관련 예제 코드 바로가기](src/main/kotlin/kotlinInAction/chap03)
+
+
+- [Chap 04. 클래스, 객체, 인터페이스](src/main/kotlin/kotlinInAction/docs/Chap04.md)   
+  [👩‍💻 관련 예제 코드 바로가기](src/main/kotlin/kotlinInAction/chap04)
+
+
+- [Chap 05. 람다 프로그래밍](src/main/kotlin/kotlinInAction/docs/Chap05.md)   
+  [👩‍💻 관련 예제 코드 바로가기](src/main/kotlin/kotlinInAction/chap05)
+
+
