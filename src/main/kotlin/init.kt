@@ -13,10 +13,10 @@
 
 /*
 * Kotlin In Action
-* Chap 02. 코틀린 기초
+* Chap 06. 코틀린 타입 시스템
 *
-* 2.3 선택 표현과 처리 : enum과 when
-  -> 프로퍼티와 메소드가 있는 enum 클래스 선언하기
+* 5.1
+  ->
 * */
 
 fun main() {
