@@ -56,3 +56,5 @@
   [👩‍💻 관련 예제 코드 바로가기](src/main/kotlin/kotlinInAction/chap05)
 
 
+- [Chap 06. 코틀린 타입 시스템](src/main/kotlin/kotlinInAction/docs/Chap06.md)   
+  [👩‍💻 관련 예제 코드 바로가기](src/main/kotlin/kotlinInAction/chap06)
