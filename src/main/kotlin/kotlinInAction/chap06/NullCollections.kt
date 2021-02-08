@@ -12,6 +12,7 @@ import java.lang.NumberFormatException
 * 6.3.1. 널 가능성과 컬렉션
   -> 널이 될 수 있는 값으로 이뤄진 컬렉션 만들기
   -> 널이 될 수 있는 값으로 이뤄진 컬렉션 다루기
+  -> filterNotNull를 널이 될 수 있는 값으로 이뤄진 컬렉션에 대해 사용하기
 * */
 
 fun readNumbers(reader: BufferedReader): List<Int?> {
@@ -33,19 +34,26 @@ fun readNumbers(reader: BufferedReader): List<Int?> {
 
 fun addValidNumbers(numbers: List<Int?>) {
     var sumOfValidNumbers = 0
-    var invaildNumbers = 0
+    var invalidNumbers = 0
+
+    // 널 값을 걸러낼 수 있도록 도와주는 filterNotNull 함수
+    val validNumbers = numbers.filterNotNull()
+
     // 리스트에서 널이 될 수 있는 값을 읽는다.
     for (number in numbers) {
         // 널에 대한 값을 확인한다.
         if(number != null) {
             sumOfValidNumbers += number
         } else {
-            invaildNumbers++
+            invalidNumbers++
         }
     }
 
     println("Sum of valid numbers: $sumOfValidNumbers")
-    println("Invalid numbers: $invaildNumbers")
+    println("Invalid numbers: $invalidNumbers")
+
+    println("Sum of valid numbers: ${validNumbers.sum()}")
+    println("Invalid numbers: ${numbers.size - validNumbers.size}")
 }
 
 fun main() {
@@ -58,5 +66,8 @@ fun main() {
 /*
 *   < 실행 결과 >
 *   Sum of valid numbers: 43
+    Invalid numbers: 1
+
+    Sum of valid numbers: 43
     Invalid numbers: 1
 * */
